@@ -1,0 +1,61 @@
+Circuit: * \\file\Usersj$\jui11\Home\My Documents\ENEL471\ENEL471-main\ENEL471\LTSpice\Fixed_Frequency _Current_Mode_Controller.asc
+
+Limiting rise time of source v1 to 5e-006
+Limiting fall time of source v1 to 5e-006
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+vernier = 0.5
+Gmin = 0.0025641
+vernier = 0.666667
+vernier = 0.888888
+Gmin = 0.000584314
+vernier = 1
+Gmin = 7.02013e-005
+Gmin = 7.53781e-006
+Gmin = 8.09366e-007
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+Gmin = 6.47493e-007
+vernier = 0.00195313
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 54.7348%
+vernier = 0.015625
+Source Step = 54.5691%
+Starting source stepping with srcstepmethod=1
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
+Source Step = 100%
+Source Step = 99.0148%
+Source stepping failed
+
+Pseudo Transient failed in finding the operating point at 4.13955 ms.
+Trouble finding operating point....skipping operating point for Transient analysis.
+Ignoring empty pin current: Ix(u5:1)
+Ignoring empty pin current: Ix(u5:2)
+Changing Tseed to 1e-007
+Changing Tseed to 1e-009
+Changing Tseed to 1e-006
+Changing Tseed to 1e-010
+Changing Tseed to 1e-005
+Changing Tseed to 1e-011
+Changing Tseed to 0.0001
+Changing Tseed to 1e-012
