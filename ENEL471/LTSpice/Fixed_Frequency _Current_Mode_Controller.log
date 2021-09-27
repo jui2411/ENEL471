@@ -2,6 +2,7 @@ Circuit: * \\file\Usersj$\jui11\Home\My Documents\ENEL471\ENEL471-main\ENEL471\L
 
 Limiting rise time of source v1 to 5e-006
 Limiting fall time of source v1 to 5e-006
+WARNING: Less than two connections to node PWM_OUT.  This node is used by R35.
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
 Starting Gmin stepping
 Gmin = 10
@@ -44,10 +45,10 @@ Source Step = 33.3333%
 Source Step = 63.6364%
 Source Step = 93.9394%
 Source Step = 100%
-Source Step = 99.0148%
+Source Step = 99.9558%
 Source stepping failed
 
-Pseudo Transient failed in finding the operating point at 4.13955 ms.
+Pseudo Transient failed in finding the operating point at 28.0134 ms.
 Trouble finding operating point....skipping operating point for Transient analysis.
 Ignoring empty pin current: Ix(u5:1)
 Ignoring empty pin current: Ix(u5:2)
@@ -59,3 +60,44 @@ Changing Tseed to 1e-005
 Changing Tseed to 1e-011
 Changing Tseed to 0.0001
 Changing Tseed to 1e-012
+Changing Tseed to 0.001
+Changing Tseed to 1e-013
+Changing Tseed to 0.01
+Changing Tseed to 1e-014
+Heightened Def Con from 0 Changing Tseed to 1e-008
+Changing Tseed to 1e-010
+to 5e-010
+Heightened Def Con from 0.0565096 to 0.0565096
+Heightened Def Con from 0.0799766 to 0.0799766
+Heightened Def Con from 0.109553 to 0.109553
+Heightened Def Con from 0.11886 to 0.11886
+Heightened Def Con from 0.151976 to 0.151976
+Heightened Def Con from 0.316872 to 0.316872
+Heightened Def Con from 0.491076 to 0.491076
+Heightened Def Con from 0.666192 to 0.666192
+Heightened Def Con from 0.697881 to 0.697881
+Heightened Def Con from 0.781414 to 0.781414
+Heightened Def Con from 0.784954 to 0.784954
+Heightened Def Con from 0.873512 to 0.873512
+Heightened Def Con from 0.876309 to 0.876309
+Heightened Def Con from 0.924899 to 0.924899
+Heightened Def Con from 0.954761 to 0.954761
+
+Date: Mon Sep 27 15:49:21 2021
+Total elapsed time: 449.386 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 8802450
+traniter = 8350019
+tranpoints = 3448457
+accept = 2737925
+rejected = 721907
+matrix size = 121
+fillins = 183
+solver = Normal
+Thread vector: 17.8/10.3[8] 7.9/5.0[8] 3.3/1.6[8] 0.3/0.7[1]  2592/500
+Matrix Compiler1: 17.53 KB object code size  4.1/0.9/[0.5]
+Matrix Compiler2: 12.58 KB object code size  1.4/1.8/[0.5]
+
